@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useFetchGifs } from  "../hooks/useFetchGifs.jsx";
-import { GifItem } from "./GifItem";
+//import { GifItem } from "./GifItem";
 
 /*
 
@@ -21,7 +21,6 @@ export const GifGrid = ({category}) => {
 }
 */
 
-/*
 const getGifs = async ( category ) => {
     const url = `https://api.giphy.com/v1/gifs/search?api_key=Bh98ua6p1Qthm3gMIWnfAO2nvuDa2cP1&q=${category}&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips`
     const resp = await fetch( url )
@@ -37,6 +36,7 @@ const getGifs = async ( category ) => {
     return gifs
 }
 
+/*
 export const GifGrid = ({category}) => {
 
     getGifs( category )
