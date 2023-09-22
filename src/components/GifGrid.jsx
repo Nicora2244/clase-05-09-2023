@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useFetchGifs } from  "../hooks/useFetchGifs.jsx";
-//import { GifItem } from "./GifItem";
+import { useFetchGifs } from  "../hooks/useFetchGifs";
+import { GifItem } from "./GifItem";
 
 /*
 
