@@ -36,7 +36,6 @@ export const GifGrid = ({category}) => {
 }
 */
 
-
 export const GifGrid = ({category}) => {
     const {images, isLoading} = useFetchGifs( category )
 
@@ -52,6 +51,4 @@ export const GifGrid = ({category}) => {
             </div>
         </>
     )
-}
-
-
+}   
